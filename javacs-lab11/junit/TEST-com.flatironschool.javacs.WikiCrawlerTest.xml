@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Vincent-HP" name="com.flatironschool.javacs.WikiCrawlerTest" skipped="0" tests="1" time="1.838" timestamp="2016-06-30T05:30:42">
+  <properties>
+    <property name="env.OLDPWD" value="C:/Users/Vincent/Desktop/cs-application-crawling-lab-codeU/javacs-lab11" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.ACLOCAL_PATH" value="C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre" />
+    <property name="env.DISPLAY" value="needs-to-be-defined" />
+    <property name="env.PCBRAND" value="Pavilion" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed" />
+    <property name="env.USERNAME" value="Vincent" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.COMPUTERNAME" value="VINCENT-HP" />
+    <property name="env.=C:" value="C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.PRINTER" value="HP Deskjet 1010 series" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="java.version" value="1.8.0_20" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.USERPROFILE" value="C:\Users\Vincent" />
+    <property name="env.PLINK_PROTOCOL" value="ssh" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.PS1" value="\[\033]0;$MSYSTEM:${PWD//[^[:ascii:]]/?}\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ " />
+    <property name="user.name" value="Vincent" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Vincent\AppData\Local" />
+    <property name="env.SSH_ASKPASS" value="C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass" />
+    <property name="env.VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="America/New_York" />
+    <property name="user.script" value="" />
+    <property name="path.separator" value=";" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_20\bin\java.exe" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.HOME" value="C:\Users\Vincent" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiCrawlerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\junit\TEST-com.flatironschool.javacs.WikiCrawlerTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\junitvmwatcher4638394269911185038.properties propsfile=C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\junit8824743890173107305.properties" />
+    <property name="env.MANPATH" value="C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.APPDATA" value="C:\Users\Vincent\AppData\Roaming" />
+    <property name="ant.file" value="C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\build.xml" />
+    <property name="env.Platform" value="MCD" />
+    <property name="env.WINDIR" value="C:\WINDOWS" />
+    <property name="env.HOSTNAME" value="Vincent-HP" />
+    <property name="env._" value="C:/RailsInstaller/Ruby2.2.0/bin/learn-test" />
+    <property name="java.io.tmpdir" value="C:\Users\Vincent\AppData\Local\Temp\" />
+    <property name="user.language" value="en" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="target" value="1.7" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="source" value="1.7" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY" />
+    <property name="env.MOZ_PLUGIN_PATH" value="C:\Program Files\Tracker Software\PDF Viewer\Win32\" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="Vincent-HP" />
+    <property name="env.LOGONSERVER" value="\\VINCENT-HP" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="env.USERDOMAIN" value="Vincent-HP" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TMP" value="C:\Users\Vincent\AppData\Local\Temp" />
+    <property name="env.TERM" value="xterm" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Vincent\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Vincent\bin;C:\Python27;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\MATLAB\R2014b\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Skype\Phone;C:\HashiCorp\Vagrant\bin;C:\Users\Vincent\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Git\cmd;C:\Program Files\MiKTeX 2.9\miktex\bin\x64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Git\cmd;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Python27\Scripts;C:\Users\Vincent\AppData\Local\.meteor;C:\Program Files\Java\jdk1.8.0_20;C:\Program Files\Ant\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;." />
+    <property name="env.PATH" value="C:\Users\Vincent\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Vincent\bin;C:\Python27;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\MATLAB\R2014b\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Skype\Phone;C:\HashiCorp\Vagrant\bin;C:\Users\Vincent\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Git\cmd;C:\Program Files\MiKTeX 2.9\miktex\bin\x64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Git\cmd;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Python27\Scripts;C:\Users\Vincent\AppData\Local\.meteor;C:\Program Files\Java\jdk1.8.0_20;C:\Program Files\Ant\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="env.INFOPATH" value="C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info" />
+    <property name="basedir" value="C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11" />
+    <property name="java.class.version" value="52.0" />
+    <property name="env.SHLVL" value="1" />
+    <property name="ant.home" value="C:\Program Files\Ant" />
+    <property name="ant.file.JavaCS" value="C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\build.xml" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env.SYSTEMROOT" value="C:\WINDOWS" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="env.COMSPEC" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin" />
+    <property name="env.SYSTEMDRIVE" value="C:" />
+    <property name="env.PROCESSOR_REVISION" value="4501" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="env.USER" value="Vincent" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="env.PROGRAMFILES" value="C:\Program Files" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="env.SSL_CERT_FILE" value="C:\RailsInstaller\cacert.pem" />
+    <property name="os.version" value="6.3" />
+    <property name="user.home" value="C:\Users\Vincent" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.PKG_CONFIG_PATH" value="C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_20" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="user.dir" value="C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU" />
+    <property name="env.PWD" value="C:/Users/Vincent/Desktop/cs-application-crawling-lab-codeU" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="env.OnlineServices" value="Online Services" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.TMPDIR" value="C:\Users\Vincent\AppData\Local\Temp" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.version" value="25.20-b23" />
+    <property name="java.class.path" value="C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\bin;C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\lib\jedis-2.8.0.jar;C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\lib\jsoup-1.8.3.jar;C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\lib\junit-4.12.jar;C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\lib\hamcrest-core-1.3.jar;C:\Users\Vincent\Desktop\cs-application-crawling-lab-codeU\javacs-lab11\lib\hamcrest-library-1.3.jar;C:\Program Files\Ant\lib\ant-launcher.jar;C:\Program Files\Ant\lib\ant.jar;C:\Program Files\Ant\lib\ant-junit.jar;C:\Program Files\Ant\lib\ant-junit4.jar" />
+    <property name="env.=::" value="::\" />
+    <property name="env.HOMEPATH" value="\Users\Vincent" />
+    <property name="ant.library.dir" value="C:\Program Files\Ant\lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="ant.core.lib" value="C:\Program Files\Ant\lib\ant.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" test -buildfile javacs-lab11/build.xml" />
+    <property name="java.runtime.version" value="1.8.0_20-b26" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_20\jre\classes" />
+    <property name="env.EXEPATH" value="C:\Program Files\Git" />
+    <property name="env.TEMP" value="C:\Users\Vincent\AppData\Local\Temp" />
+    <property name="env.ANT_HOME" value="C:\Program Files\Ant" />
+    <property name="user.country" value="US" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="env.SHELL" value="C:/Program Files/Git/usr/bin/bash" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.HerokuPath" value="C:\Program Files (x86)\Heroku" />
+    <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.MSYSTEM" value="MINGW64" />
+    <property name="sun.arch.data.model" value="64" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.WikiCrawlerTest" name="testCrawl" time="1.782" />
+  <system-out><![CDATA[Indexing https://en.wikipedia.org/wiki/Java_(programming_language)
+Indexing https://en.wikipedia.org/wiki/Programming_language
+Indexing https://en.wikipedia.org/wiki/Concurrent_computing
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

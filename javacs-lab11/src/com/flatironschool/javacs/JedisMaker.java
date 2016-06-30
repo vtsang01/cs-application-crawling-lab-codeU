@@ -26,9 +26,8 @@ public class JedisMaker {
 
 		// assemble the directory name
 		String slash = File.separator;
-		String filename = "resources" + slash + "redis_url.txt";
+		String filename = "resources/redis_url.txt";
 		URL fileURL = JedisMaker.class.getClassLoader().getResource(filename);
-
 	    	StringBuilder sb = new StringBuilder();
 		BufferedReader br;
 		try {

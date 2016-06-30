@@ -6,6 +6,9 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Queue;
 
+
+import org.jsoup.nodes.Node;
+import org.jsoup.nodes.TextNode;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
@@ -24,6 +27,8 @@ public class WikiCrawler {
 	
 	// fetcher used to get pages from Wikipedia
 	final static WikiFetcher wf = new WikiFetcher();
+
+	final static String WIKI_BASE_URL = "https://en.wikipedia.org";
 
 	/**
 	 * Constructor.
@@ -54,8 +59,23 @@ public class WikiCrawler {
 	 * @throws IOException
 	 */
 	public String crawl(boolean testing) throws IOException {
-        // FILL THIS IN!
-		return null;
+        	String url = queue.poll();
+        	if (url == null) return null; 
+
+        	Elements paragraphs = wf.readWikipedia(url); 
+        	// Testing logic
+        	if (testing){
+        		index.indexPage(url, paragraphs); 
+        		queueInternalLinks(paragraphs);
+        	}
+        	// Non-Testing Logic
+        	else{
+        		if (index.isIndexed(url)){
+        			return null; 
+        		}
+        		queueInternalLinks(paragraphs); 
+        	}
+		return url;
 	}
 	
 	/**
@@ -65,8 +85,36 @@ public class WikiCrawler {
 	 */
 	// NOTE: absence of access level modifier means package-level
 	void queueInternalLinks(Elements paragraphs) {
-        // FILL THIS IN!
+        	for (Element paragraph: paragraphs){
+                        Iterable<Node> iter = new WikiNodeIterable(paragraph);
+                        int parenthesis_count = 0; 
+                        // put into own function
+                        for (Node node: iter){
+                                if (node instanceof Element){
+                                        String link = node.attr("href");
+                                        String thresholdText = "/wiki/";
+                                        Element elem = (Element)node; 
+                                        if (isValidLink(elem) && parenthesis_count == 0){
+                                                enqueue(link);
+                                        }
+                                }
+                        }
+                }
 	}
+	private void enqueue(String link){
+		String url = WIKI_BASE_URL + link;
+	        queue.add(url);
+	}
+
+	private static Boolean isValidLink(Element elem){
+                String link = elem.attr("href");
+                return isLinkWikiPage(link);       
+        }
+
+        private static Boolean isLinkWikiPage(String link){
+                String thresholdText = "/wiki/";
+                return link.startsWith(thresholdText); 
+        }
 
 	public static void main(String[] args) throws IOException {
 		
